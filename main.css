@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    min-height: 900px;
+    background: #333;
+}
+.card {
+    width: 90%;
+    max-width: 450px;
+    height: 500px;
+    background-image: linear-gradient(135deg , #00feba , #5b548a);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    padding: 20px 25px;
+    min-height: 570px;
+    border-radius: 25px;
+}
+
+.card .form img {
+    width: 40px;
+    background-color: white;
+    padding: 8px 8px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form input {
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 15px 0 15px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.middle-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+.middle-content .image-weather img {
+    max-width: 80%;
+}
+
+.temp {
+    display: block;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 29px;
+    color: black;
+}
+
+.country {
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.bottom-content {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -10px);
+}
+
+.first-box , 
+.second-box {
+    display: flex;
+    gap: 13px;
+}
+.content-span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.one , 
+.two {
+    margin-bottom: 13px;
+    color: white;
+    font-size: 20px;
+}
+
+.Humidity , 
+.wind {
+    color: rgb(255, 34, 0);
+    font-size: 18px;
+}
